@@ -6,7 +6,7 @@ const router = Router()
 router
   .route('/')
   .get(controller.getAllContacts)
-  .post(controller.addContact)
+  .post(controller.createContact)
 
 router
   .route('/:id')
