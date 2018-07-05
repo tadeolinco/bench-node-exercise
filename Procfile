@@ -1,1 +1,0 @@
-web: PORT=$PORT npx babel-node src/server
