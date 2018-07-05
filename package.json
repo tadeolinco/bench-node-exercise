@@ -5,9 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "babel-node src/server",
-    "dev": "nodemon --exec babel-node src/server",
-    "test": "jest src",
-    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+    "dev": "nodemon --exec babel-node src/server"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
